@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <title>Scale</title>
+    <script src="script.js"></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="main.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <script async src="https://arc.io/widget.min.js#3emnGqeB"></script>
+</head>
+
+<body onload="showdiv()">
+<center>
+    <h1 class="title">Scale!</h1>
+    <hr id="titleline">
+    <p>The software is 100% run by AI and choses the stocks based on an advanced accurate algorithm, that assures atleast 10%* profits per month by trading only equity! Subscribe to the service for FREE!</p>
+    <textarea type="text" id="subject" placeholder="Phone Number" class="input" size="30"></textarea><br>
+    <textarea type="text" id="inbody" placeholder="Email ID" class="input" size="30"></textarea><br>
+    <textarea type="text" id="contactinfo" placeholder="How You came to know of Scale" class="input" size="30"></textarea><br>
+    <button id="button" onclick="sendEmail(); showdiv(); disableb();">Send</button>
+    <p id="status"></p>
+    <div id="output">
+        <p id="title"></p>
+        <p id="body"></p>
+    </div>
+</center>
+</body>
+
+<footer>
+    <center>
+    <hr id="warning_splitter">
+    <p id="warning">© Scale ai investing 2020-30</p>
+    </center>
+</footer>
+
+</html>
